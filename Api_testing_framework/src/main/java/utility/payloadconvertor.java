@@ -8,7 +8,7 @@ public class payloadconvertor {
 	
 	public static String generatepayload(String filename) throws IOException {
 	
-	String filepath ="C://Users//shash//Documents//workspace-spring-tool-suite-4-4.19.0.RELEASE//Api_testing_framework//src/test//resources//"+filename;
+	String filepath ="src//test//resources//"+filename;
 	return new String(Files.readAllBytes(Paths.get(filepath)));
 	}
 
